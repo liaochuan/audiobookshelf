@@ -88,7 +88,7 @@ export default {
       return this.$store.state.streamLibraryItem
     },
     librarySetting() {
-      return this.$store.getters['libraries/getCurrentLibrarySettings']()
+      return this.$store.getters['libraries/getCurrentLibrarySettings']
     }
   },
   methods: {
